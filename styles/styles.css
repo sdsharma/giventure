@@ -1,0 +1,68 @@
+body{
+	/*padding: 20px;*/
+}
+
+.header {
+	background: url('../assets/header.jpg');
+	background-size: cover;
+	height: 520px;
+	/*background-position: 0px -275px;*/
+}
+
+.header-overlay{
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(76,76,77,.4);
+    z-index: 1;
+	height: 520px;
+}
+
+.header-logo{
+	position: absolute;
+    z-index: 2;
+    left: 20px;
+    top: 20px;
+    width: 200px;
+}
+
+.header-desc{
+    z-index: 100;
+    position: relative;
+    width: 100%;
+    max-width: 956px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 32px;
+    text-align: center;
+    z-index: 2;
+    font-size: 16px;
+    line-height: 1.6em;
+    letter-spacing: .5px;
+    font-weight: 300;
+    font-style: normal;
+    top: 200px;
+}
+
+.header-desc-text{
+	font-family: "Muli";
+	font-size: 28px;
+    line-height: 1.3em;
+    text-transform: lowercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-style: normal;
+    color: #9c9999;
+    margin: 20px auto;
+}
+
+.header-desc-text-sub{
+	font-size: 42px;
+	letter-spacing: 0.0238095em; 
+	color: white;
+	font-family: "Montserrat";
+}

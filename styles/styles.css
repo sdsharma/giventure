@@ -1,12 +1,7 @@
-body{
-	/*padding: 20px;*/
-}
-
 .header {
 	background: url('../assets/header.jpg');
 	background-size: cover;
 	height: 520px;
-	/*background-position: 0px -275px;*/
 }
 
 .header-overlay{
@@ -65,4 +60,41 @@ body{
 	letter-spacing: 0.0238095em; 
 	color: white;
 	font-family: "Montserrat";
+}
+
+.header-nav{
+	position: absolute;
+    right: 20px;
+    top: 38px;
+    z-index: 2;
+}
+
+.header-nav a {
+	font-family: "Muli";
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1em;
+    color: #fff;
+	padding: .75em 1em;
+	-webkit-font-smoothing: antialiased;
+}
+
+.header-nav a:hover {
+	color: #4bc1bb;
+}
+
+.button-white{
+	border: 2px solid #fff;
+    color: #fff;
+	-webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.button-white:hover{
+	background: #fff;
+	color: #000 !important;
 }

@@ -98,3 +98,29 @@
 	background: #fff;
 	color: #000 !important;
 }
+
+.social-media{
+	background-color: #e5e7e9;
+	height: 95px;
+}
+
+.sm-icons{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.sm-icons a{
+	color: #4c4c4d;
+	padding: 6px;
+}
+
+.sm-icons:hover a{
+	color: #97999A;
+	padding: 6px;
+}
+
+.sm-icons a:hover{
+	color: #4c4c4d;
+	padding: 6px;
+	text-decoration: none;
+}

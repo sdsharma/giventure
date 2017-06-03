@@ -144,3 +144,60 @@ body{
     font-weight: 300;
     font-style: normal;
 }
+
+.content {
+	background-color: #fff;
+	text-align: center;
+	padding: 96px 32px;
+}
+
+h1{
+	color: #4bc1bb;
+	font-family: "Montserrat";
+    font-size: 32px;
+    line-height: 1.2em;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+	font-family: "Muli";
+    font-size: 16px;
+    line-height: 1.6em;
+    letter-spacing: .5px;
+    font-weight: 300;
+    font-style: normal;
+    color: #1f1f1f;
+}
+
+@media screen and (min-width: 991px) {
+	.app-screen {
+		float: right;
+		margin-right: 40px;
+	}
+}
+
+.app-screen{
+	height: 450px;
+}
+
+@media screen and (min-width: 991px) {
+	.screen-text{
+		text-align: left;
+		width: 65%;
+	}
+}
+
+h2{
+	color: #272727;
+    font-size: 30px;
+    line-height: 1.2em;
+    text-align: inherit;
+	font-family: "Montserrat";
+	text-transform: none;
+    letter-spacing: .5px;
+    font-weight: 400;
+    font-style: normal;
+}

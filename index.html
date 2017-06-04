@@ -23,8 +23,23 @@
 </head>
 
 <body>
-  <section class="header">
+  <div id="givesidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="/about-us">
+            About Us
+          </a>
+    <a href="/" class="active">
+            Home
+          </a>
+    <a href="/blog">
+            Blog
+          </a>
+    <a href="/volunteer" class="button-white sidenav-button">
+            Volunteer
+          </a>
+  </div>
 
+  <section class="header">
     <div class="header-overlay"></div>
     <a href="/">
       <img src="assets/logo.png" alt="Giventure" class="header-logo"/>
@@ -34,10 +49,11 @@
     </div>
 
     <div class="header-nav">
+      <span onclick="openNav()" class="hamburger"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
       <a href="/about-us">
             About Us
           </a>
-      <a href="/">
+      <a href="/" class="active">
             Home
           </a>
       <a href="/blog">

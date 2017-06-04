@@ -1,6 +1,7 @@
 body{
 	-webkit-font-smoothing: antialiased;
 	background-color: #4C4C4D;
+	overflow-x: hidden;
 }
 
 .header {
@@ -89,6 +90,7 @@ body{
     line-height: 1em;
     color: #fff;
 	padding: .75em 1em;
+	display: none;
 }
 
 .header-nav a:hover {
@@ -223,4 +225,83 @@ h2{
     max-height: 665px;
 	margin-top: 70px;
 	margin-bottom: 70px;
+}
+
+.active {
+	color: #4bc1bb !important;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    background-color: #4c4c4d;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+	font-family: "Muli";
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1em;
+    color: #fff;
+	padding: .75em 1em;
+    padding: 8px 8px 8px 32px;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #4bc1bb;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    font-size: 36px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+.sidenav-button{
+	left: 30px;
+    position: absolute;
+    padding-left: 8px !important;
+}
+
+.hamburger{
+	cursor: pointer;
+	color: #fff;
+	display: block;
+}
+
+.hamburger:hover{
+	color: #4bc1bb;
+}
+
+@media screen and (min-width: 768px) {
+	.hamburger{
+		display: none;
+	}
+
+	.header-nav a {
+		display: inline;
+	}
 }
